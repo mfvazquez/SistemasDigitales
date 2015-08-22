@@ -1,0 +1,17 @@
+C:/Users/matias/Desktop/SistemasDigitales/Practica1/Ej4/ej4_test.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/matias/Desktop/SistemasDigitales/Practica1/Ej4/ej4_test.vhd
+QuestaSim vcom 10.0b Compiler 2011.05 May  5 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test
+-- Compiling architecture test1 of test
+
+} {} {}} C:/Users/matias/Desktop/SistemasDigitales/Practica1/Ej4/ej4.vhd {1 {vcom -work work -2002 -explicit -vopt C:/Users/matias/Desktop/SistemasDigitales/Practica1/Ej4/ej4.vhd
+QuestaSim vcom 10.0b Compiler 2011.05 May  5 2011
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity ej4
+-- Compiling architecture beh of ej4
+
+} {} {}}
