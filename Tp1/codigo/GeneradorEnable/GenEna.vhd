@@ -17,7 +17,7 @@ begin
 		variable cuenta: unsigned(25 downto 0);
 		variable rst: std_logic := '1';
 	begin
-		if rst = '1' then
+		if rst = '1' and rising_edge(clk) then
 			cuenta := B"00_0000_0000_0000_0000_0000_0000";
 			en <= '0';
 			rst := '0';
