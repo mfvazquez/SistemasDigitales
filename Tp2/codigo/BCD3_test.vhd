@@ -34,5 +34,4 @@ begin
 
 	clk_t <= not clk_t after 10 ns;
 	rst_t <= '0' after 50 ns;
-	en_t <= not en_t after 3 us;
 end;

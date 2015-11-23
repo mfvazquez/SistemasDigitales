@@ -56,7 +56,15 @@ begin
 	grn_o <= grn_o_aux;
 	blu_o <= blu_o_aux;
 	
-	input_aux(11 downto 0) <= output_aux;
+	input_aux(11 downto 8) <= output_aux(3 downto 0);
+	input_aux(7 downto 4) <= output_aux(7 downto 4);
+	input_aux(3 downto 0) <= output_aux(11 downto 8);
+--	input_aux(3) <= output_aux(8);
+	--input_aux(2) <= output_aux(9);
+--	input_aux(1) <= output_aux(10);
+--	input_aux(0) <= output_aux(11);
+
+--	input_aux(11 downto 0) <= output_aux;
 	input_aux(15 downto 12) <= "1010"; -- direccion en memoria del caracter: '.' 
 	input_aux(19 downto 16) <= "1011"; -- direccion en memoria del caracter: 'V'
 	input_aux(23 downto 20) <= "1100"; -- direccion en memoria del caracter: ' '

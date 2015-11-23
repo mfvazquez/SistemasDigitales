@@ -6,6 +6,7 @@ entity Sampler is
 	port(
 		en: in std_logic;
 		clk: in std_logic;
+		out_aux: out std_logic_vector(11 downto 0);
 		output: out std_logic_vector(11 downto 0)
 	);
 end;
@@ -37,14 +38,10 @@ architecture Beh of Sampler is
 	end component; 
 	
 	component CounterNb is
-	generic(
-		N: natural := 9;
-		M: natural := 1
-			);
 	port(
 		clk: in std_logic;
-		out1: out std_logic := '0';
-		out2: out std_logic := '0'
+		out1: out std_logic;
+		out2: out std_logic
 	);
 	end component;
 	
@@ -52,12 +49,9 @@ begin
 	clk_aux <= clk;
 	en_aux <= en;
 	output <= output_aux;
+	out_aux <= input_aux;
 	
 	inst_CounterNb: CounterNb
-		generic map(
-			N => 9,
-			M => 1
-		)
 		port map(
 			clk => clk_aux,
 			out1 => out1_aux,

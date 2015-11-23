@@ -12,10 +12,6 @@ architecture beh of test_CounterNb is
 	signal out2_t: std_logic;
 	
 	component CounterNb is
-		generic(
-			N: natural := 5;
-			M: natural := 1
-				);
 		port(
 			clk: in std_logic;
 			out1: out std_logic := '0';
@@ -25,10 +21,6 @@ architecture beh of test_CounterNb is
 
 begin
 	inst_CounterNb: CounterNb
-		generic map(
-			N => 5,
-			M => 1
-		)
 		port map(
 			clk => clk_t,
 			out1 => out1_t,

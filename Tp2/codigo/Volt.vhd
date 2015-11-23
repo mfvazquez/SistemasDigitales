@@ -4,7 +4,8 @@ use IEEE.numeric_std.all;
 
 entity VOLT is
 	port(
-		clk50, data_volt_in_p,data_volt_in_n: in std_logic;
+		clk50: in std_logic;
+		data_volt_in_p,data_volt_in_n: in std_logic;
 		data_volt_out: out std_logic;
 		hs: out std_logic;
 		vs: out std_logic;
@@ -35,9 +36,29 @@ entity VOLT is
 	attribute loc of grn_o: signal is "P6 P8 N8";
 	attribute loc of blu_o: signal is "U4 U5";
 
+-- Mapeo de pines para el kit spartan 3E
+--   attribute loc of clk50: signal is "T9";
+--   attribute loc of hs: signal is "R9";
+ --  attribute loc of vs: signal is "T10";
+  -- attribute loc of red_o: signal is "R12";
+   --attribute loc of grn_o: signal is "T12";
+--   attribute loc of blu_o: signal is "R11";
+
 end VOLT;
 
 architecture beh of VOLT is
+
+--	component GenEna
+--		generic(
+--			N: natural := 1;
+--			M: natural := 1
+--		);
+--		port(
+--			clk: in std_logic;
+--			en: out std_logic
+--		);
+--	end component;
+
 
 	component IBUFDS 
 		port(
@@ -93,7 +114,16 @@ begin
 		);
 	
 	inst_proces: Process_and_controll port map(process_in, clk50, hs, vs, red_o, grn_o, blu_o);
-	
+--	inst_genEna: GenEna
+--		generic map(
+--		N => 1,
+--		M => 1
+--		)
+--		port map(
+--			clk => clk50, 
+--			en => process_in
+--		);
+
 	data_volt_out <= process_in;
 	
 end;
