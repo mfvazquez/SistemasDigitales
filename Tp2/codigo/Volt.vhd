@@ -36,29 +36,9 @@ entity VOLT is
 	attribute loc of grn_o: signal is "P6 P8 N8";
 	attribute loc of blu_o: signal is "U4 U5";
 
--- Mapeo de pines para el kit spartan 3E
---   attribute loc of clk50: signal is "T9";
---   attribute loc of hs: signal is "R9";
- --  attribute loc of vs: signal is "T10";
-  -- attribute loc of red_o: signal is "R12";
-   --attribute loc of grn_o: signal is "T12";
---   attribute loc of blu_o: signal is "R11";
-
 end VOLT;
 
 architecture beh of VOLT is
-
---	component GenEna
---		generic(
---			N: natural := 1;
---			M: natural := 1
---		);
---		port(
---			clk: in std_logic;
---			en: out std_logic
---		);
---	end component;
-
 
 	component IBUFDS 
 		port(
@@ -68,7 +48,6 @@ architecture beh of VOLT is
 		); 
 	end component; 
 
-	-- declaracion de los demas componentes
 	
 	component FFD is
 		port(
@@ -95,8 +74,6 @@ architecture beh of VOLT is
 	signal Diff_Input: std_logic;
 	signal process_in: std_logic;
 	
-	-- declaracion de las demas señales
-       
 begin
 	ibuf0: IBUFDS port map(
 		I => data_volt_in_p,
@@ -113,16 +90,16 @@ begin
 			Q => process_in
 		);
 	
-	inst_proces: Process_and_controll port map(process_in, clk50, hs, vs, red_o, grn_o, blu_o);
---	inst_genEna: GenEna
---		generic map(
---		N => 1,
---		M => 1
---		)
---		port map(
---			clk => clk50, 
---			en => process_in
---		);
+	inst_proces: Process_and_controll 
+		port map(
+			process_in, 
+			clk50, 
+			hs, 
+			vs, 
+			red_o, 
+			grn_o, 
+			blu_o
+		);
 
 	data_volt_out <= process_in;
 	

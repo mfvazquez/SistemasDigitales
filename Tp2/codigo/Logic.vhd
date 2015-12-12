@@ -30,17 +30,17 @@ begin
 		
 		if char_fila = 30 then
 			if char_col = 38 then
-				sel <= "000";			-- (0) digito mas significativo
+				sel <= "000";	-- (0) digito mas significativo
 			elsif char_col = 39 then
-				sel <= "011";			-- (3) punto
+				sel <= "011";	-- (3) punto
 			elsif char_col = 40 then
-				sel <= "001";			-- (1) primer decimal
+				sel <= "001";	-- (1) primer decimal
 			elsif char_col = 41 then
-				sel <= "010";			-- (2) segundo decimal
+				sel <= "010";	-- (2) segundo decimal
 			elsif char_col = 42 then
-				sel <= "100";			-- (4) V
+				sel <= "100";	-- (4) V
 			else
-				sel <= "101";		-- (5) espacio
+				sel <= "101";	-- (5) espacio
 			end if;
 		else
 			sel <= "101";		-- (5) espacio		

@@ -8,7 +8,7 @@ end;
 
 architecture Beh of test_Mux is
 	signal	sel_t: std_logic_vector(2 downto 0) := "000";
-	signal	input_t: std_logic_vector(23 downto 0) := B"0000_0000_1000_0100_0010_0001";
+	signal	input_t: std_logic_vector(23 downto 0) := "000000001000010000100001";
 	signal	output_t: std_logic_vector(5 downto 0);
 	
 	component Mux is
