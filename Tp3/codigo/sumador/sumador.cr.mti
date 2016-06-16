@@ -1,0 +1,46 @@
+{C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity test
+-- Compiling architecture simulacion of test
+
+} {} {}} {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FFD
+-- Compiling architecture pp of ffd
+
+} {} {}} {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity testbench
+-- Compiling architecture simulacion of testbench
+
+} {} {}} {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity delay_gen
+-- Compiling architecture del of delay_gen
+
+} {} {}} {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd}
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity registro
+-- Compiling architecture pp of registro
+
+} {} {}}

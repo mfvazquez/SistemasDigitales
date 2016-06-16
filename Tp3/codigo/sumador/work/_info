@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/multiplicador
+Edelay_gen
+Z0 w1352317474
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador
+Z6 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd
+Z7 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd
+l0
+L6
+Vcgc5i[jB5_W5Z;OoijCYc2
+!s100 BjGQ7h;0J]g0hOcUM9`::1
+Z8 OP;C;10.4a;61
+32
+Z9 !s110 1449042288
+!i10b 1
+Z10 !s108 1449042288.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd|
+Z12 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/delay.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit -O0
+Z14 tExplicit 1
+Adel
+R1
+R2
+R3
+R4
+DEx4 work 9 delay_gen 0 22 cgc5i[jB5_W5Z;OoijCYc2
+l32
+L18
+V?5zd47e0jDQ5@?K4JPX5L3
+!s100 nh;KnT84HZ0@VlAF1iGhE3
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Effd
+Z15 w1352211976
+R3
+R4
+R5
+Z16 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd
+Z17 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd
+l0
+L4
+V0nV@cVd8SFQ2GOC0QMXOi3
+!s100 iZN9WDV]a7VOzIcDj9Oa40
+R8
+32
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd|
+Z19 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/ffd.vhd|
+!i113 1
+R13
+R14
+App
+R3
+R4
+DEx4 work 3 ffd 0 22 0nV@cVd8SFQ2GOC0QMXOi3
+l15
+L14
+VIWH>[`ST5KTL^4alMgHQ[3
+!s100 5?1CgZGADchl;PzHPJBOa1
+R8
+32
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 1
+R13
+R14
+Eregistro
+Z20 w1448563764
+Z21 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R3
+R4
+R5
+Z22 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd
+Z23 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd
+l0
+L5
+VbVjDk0;5_H[2U@LzYWRA51
+!s100 hX?80QL<WkJS9<;]HQ?H22
+R8
+32
+R9
+!i10b 1
+R10
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd|
+Z25 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/registro.vhd|
+!i113 1
+R13
+R14
+App
+R21
+R3
+R4
+Z26 DEx4 work 8 registro 0 22 bVjDk0;5_H[2U@LzYWRA51
+l17
+L16
+Z27 V`JC3R8khC2Kh@4@@<f8?62
+Z28 !s100 Zlfb_o<o;7SMR=DoHQ3L`0
+R8
+32
+R9
+!i10b 1
+R10
+R24
+R25
+!i113 1
+R13
+R14
+Esumadorpf
+Z29 w1449042283
+R21
+R3
+R4
+R5
+Z30 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/sumadorPF.vhd
+Z31 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/sumadorPF.vhd
+l0
+L5
+V:Lf88Q:K?g>iJYHUzTD6e0
+!s100 ?z2V@`glnI:W46SQik>?]3
+R8
+32
+R9
+!i10b 1
+Z32 !s108 1449042287.000000
+Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/sumadorPF.vhd|
+Z34 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/sumadorPF.vhd|
+!i113 1
+R13
+R14
+Asumadorpf_arch
+R21
+R3
+R4
+DEx4 work 9 sumadorpf 0 22 :Lf88Q:K?g>iJYHUzTD6e0
+l21
+L17
+VEd=B?YUD`H>YMf_TGa>N[1
+!s100 _Q9[HTl]ZO<1LG4HjZBg]1
+R8
+32
+R9
+!i10b 1
+R32
+R33
+R34
+!i113 1
+R13
+R14
+Etest
+Z35 w1449014650
+R21
+R3
+R4
+R5
+Z36 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd
+Z37 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd
+l0
+L6
+VZS9nQm<0C5W5T2?eeO`iR0
+!s100 4f;MOMU`ilb05D`2lFE<81
+R8
+32
+R9
+!i10b 1
+R10
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd|
+Z39 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/test.vhd|
+!i113 1
+R13
+R14
+Asimulacion
+R21
+R3
+R4
+DEx4 work 4 test 0 22 ZS9nQm<0C5W5T2?eeO`iR0
+l25
+L9
+VDAm`NP6E?E<j]H6SNT;ah1
+!s100 Fbf@LLmDA`T2WEFU;NPQC2
+R8
+32
+R9
+!i10b 1
+R10
+R38
+R39
+!i113 1
+R13
+R14
+Etestbench
+Z40 w1448959387
+R21
+R3
+R4
+R5
+Z41 8C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd
+Z42 FC:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd
+l0
+L6
+VRZ9nF`LYJH]?l3V@;TkVj2
+!s100 MKn1Bl`Ob?]bhCFJzBWAE2
+R8
+32
+R9
+!i10b 1
+R10
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd|
+Z44 !s107 C:/Users/matias/Desktop/sistemas digitales/SistemasDigitales/Tp3/codigo/sumador/testbench.vhd|
+!i113 1
+R13
+R14
+Asimulacion
+R21
+R3
+R4
+DEx4 work 9 testbench 0 22 RZ9nF`LYJH]?l3V@;TkVj2
+l50
+L9
+VWM0R>@ZJ1Pac_RNCaS2J81
+!s100 :?3ob]5cP^LO<h8j9R0OO0
+R8
+32
+R9
+!i10b 1
+R10
+R43
+R44
+!i113 1
+R13
+R14

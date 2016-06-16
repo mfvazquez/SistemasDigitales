@@ -1,0 +1,7 @@
+en el que es sin pipeline tengo que utilizar el multiplicador de la clase multiplicador.ppt para el producto de los significands.
+para el pipeline multiplicar directamente con * y dividir las etapas con registros para que puedan ir ingresando datos en cada ciclo del clk
+El testbench ya esta hecho yo solo tengo que hacer el DUT.
+
+Al multiplicador implementado, agregarle por afuera un contador de N, para desabilitarlo cuando el resultado final este terminado.
+La suma sin pipeline es hacer todos los pasos dentro de un process, que despues cuando lo sintetice va a hacer todo en 1 paso, va a consumir
+muchas mas compuertas que con pipeline.
